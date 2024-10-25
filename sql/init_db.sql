@@ -1,10 +1,10 @@
 
 CREATE DATABASE test;
-CREATE USER 'test_user'@'%' IDENTIFIED WITH mysql_native_password BY '123';
-GRANT ALL ON test.* TO 'test_user'@'%';
+/*CREATE USER 'test_user'@'%' IDENTIFIED WITH mysql_native_password BY '123';
+GRANT ALL ON test.* TO 'test_user'@'%'; */
 
 /* Make sure the privileges are installed */
-FLUSH PRIVILEGES;
+/*FLUSH PRIVILEGES;*/
 
 USE test;
 
